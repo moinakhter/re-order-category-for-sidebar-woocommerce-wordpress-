@@ -1,0 +1,39 @@
+#cat_order li a{
+    text-decoration: none;
+    color: #777777!important;
+}
+#cat_order > li > a{
+    font-weight: 400;
+    width: 100% !important;
+    padding: 4px;
+    display: inline-block;
+}
+
+#cat_order > li > a.active_cat{
+    border: 2px solid #4dae65;
+    font-weight: bold;
+    width: 100% !important;
+    padding: 4px;
+    display: inline-block;
+}
+
+#cat_order li.parent.has-child ul li{
+    text-indent: 14px;
+    padding: 4px;
+}
+
+#cat_order li.parent.has-child ul{
+    display: none;
+}
+#cat_order .first_parent{
+    margin-bottom: 6px;
+}
+#cat_order li.parent.has-child ul li.child{
+    text-indent: 40px;
+}
+
+
+#cat_order li a:hover{
+    text-decoration: none;
+    color: #4dae65 !important;
+}
