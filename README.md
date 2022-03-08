@@ -1,5 +1,5 @@
 # re-order-category-for-sidebar-woocommerce-wordpress-
-Reorder category of woocommerce/wordpress.
+Reorder category of woocommerce/wordpress by Moin Akhtar
 
 
 # copy and past in your function.php then sue this shortcode [reorder_woo_cat]
