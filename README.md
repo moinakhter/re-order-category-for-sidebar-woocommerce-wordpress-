@@ -1,4 +1,4 @@
-# re-order-category-for-sidebar-woocommerce-wordpress-
+# re-order-category-for-sidebar-woocommerce-wordpress-ShortCode
 Reorder category of woocommerce/wordpress by Moin Akhtar
 
 
