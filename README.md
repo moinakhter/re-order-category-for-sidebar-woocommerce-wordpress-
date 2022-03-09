@@ -3,23 +3,15 @@ Reorder category of woocommerce/wordpress by Moin Akhtar
 
 
 # copy and past in your function.php then sue this shortcode [reorder_woo_cat]
-#please don't forget to use css and js file in your theme.
-<?php add_shortcode("reorder_woo_cat","reorder_woo_cat");
-function reorder_woo_cat(){
-    // parent cat ids
-        $en_cat = array(
-            219,
-            214,
-            225,
-            196,
-            210,
-            465,
-            250,
-            231,
-            237,
-            851
+# please don't forget to use css and js file in your theme.
 
-        );
+
+add_shortcode("reorder_woo_cat","reorder_woo_cat");
+
+
+function reorder_woo_cat(){
+    # parent cat ids
+        $en_cat = array( 219,214,225,196,210,465,250,231,237,851);
   
 
      $term_html = "<ul id='cat_order'>";
@@ -82,12 +74,17 @@ function reorder_woo_cat(){
     return $term_html;
 }
 
-?>
+
+
+
+
 
 
 
 
 # Copy js in your js file, it will work with jQuery Library.
+
+
 jQuery(document).ready(function () {
     jQuery(".first_parent > a").click(function () {
         if(jQuery(this).hasClass("active_cat")){
@@ -111,7 +108,15 @@ jQuery(document).ready(function () {
 
 
 
+
+
+
+
+
 # Copy css in your css file
+
+
+
 #cat_order li a{
     text-decoration: none;
     color: #777777!important;
