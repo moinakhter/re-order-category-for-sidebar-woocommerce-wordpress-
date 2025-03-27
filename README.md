@@ -142,5 +142,3 @@ JavaScript not working? Ensure the script is properly enqueued and there are no 
 
 Styles not applied? Verify that your CSS file is correctly loaded.
 
-## License
-This plugin is licensed under the MIT License.
